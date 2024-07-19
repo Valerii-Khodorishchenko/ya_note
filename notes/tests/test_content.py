@@ -2,7 +2,6 @@ from django.contrib.auth import get_user_model
 from django.test import TestCase
 from django.urls import reverse
 
-
 from notes.forms import Note, NoteForm
 
 User = get_user_model()
@@ -30,4 +29,3 @@ class TestAddEditPage(TestCase):
                 response = self.client.get(name)
                 self.assertIn('form', response.context)
                 self.assertIsInstance(response.context['form'], NoteForm)
-
