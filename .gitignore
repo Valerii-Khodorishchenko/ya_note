@@ -26,3 +26,8 @@ htmlcov/
 coverage.xml
 *.cover
 notes/tests/test_plan.txt
+notes/tests/test_plan_pytest.txt
+notes/tests/test_plan_unittest.txt
+notes/tests/test_plan_unittest copy.txt
+notes/pytest_tests/test_plan_pytest.txt
+notes/tests/test_plan_my_unittest.txt
